@@ -1,0 +1,34 @@
+.card {
+  height: 250px;
+  width: 250px;
+  border-radius: 12px;
+  background: linear-gradient(
+    to right,
+    rgb(183, 235, 246),
+    rgb(2, 107, 152),
+    blue
+  );
+  margin: 25px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.name {
+  font-size: 25px;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+.rating-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.movies-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
